@@ -8,8 +8,8 @@ var questions= [
     "Denethor is the 26th what?",
     "Who became King of Rohan after Theoden met his demise?",
     "How many wizards are there in Middle Earth?",
-    "What is the name of the volcano that the Ring is thrown into?"
-
+    "What is the name of the volcano that the Ring is thrown into?",
+    "What is the name of the remade version of the sword that is broken?"
 ];
 
 var answers= [
@@ -22,7 +22,8 @@ var answers= [
     ["King of Gondor", "Stewart of Gondor", "King of Rohan", "Stewart of Arnor"],
     ["Eowyn", "Grima", "Eorl", "Eomer"],
     ["3", "5", "9", "17"],
-    ["Barad Dur", "Osgiliath", "Cirith Ungol", "Minas Tirith"]
+    ["Barad Dur", "Osgiliath", "Cirith Ungol", "Minas Tirith"],
+    ["Sting", "Anduril", "Narsil", "Glamdring"]
 ];
 
 var correctAnswers= [
@@ -35,7 +36,8 @@ var correctAnswers= [
     "Stewart of Gondon",
     "Eomer",
     "5",
-    "Barad Dur"
+    "Barad Dur",
+    "Anduril"
 ];
 
 
