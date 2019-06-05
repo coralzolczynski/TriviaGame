@@ -19,7 +19,7 @@ var answers= [
     ["An ent that befriends Pippin and Merry", "A beastly spider that tries to eat Frodo and Sam", "An elf queen", "Uruk-hai leader"],
     ["Pippin", "Smeagol", "Frodo", "Belladonna Took Baggins"],
     ["Afternoon tea", "Dinner", "Supper", "Luncheon"],
-    ["King of Gondor", "Stewart of Gondor", "King of Rohan", "Stewart of Arnor"],
+    ["King of Gondor", "Stewart of Gondor", "Stewart of Rohan", "King of Arnor"],
     ["Eowyn", "Grima", "Eorl", "Eomer"],
     ["3", "5", "9", "17"],
     ["Barad Dur", "Osgiliath", "Cirith Ungol", "Minas Tirith"],
