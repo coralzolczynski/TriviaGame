@@ -40,4 +40,18 @@ var correctAnswers= [
     "Anduril"
 ];
 
+function countdown(){
+    if (counter > 0) {
+        counter--;
+    }
 
+    if (counter === 0) {
+        clearInterval(time);
+        ifOutOfTime();
+    }
+    $(".timer").html(counter);
+};
+
+function timeOut() {
+    time = setInterval(countdown, 1000);
+};
