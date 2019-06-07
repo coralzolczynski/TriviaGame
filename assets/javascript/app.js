@@ -46,7 +46,7 @@ var correctAns= [
     "A beastly spider that tries to eat Frodo and Sam",
     "Frodo",
     "Luncheon",
-    "Stewart of Gondon",
+    "Stewart of Gondor",
     "Eomer",
     "5",
     "Barad Dur",
