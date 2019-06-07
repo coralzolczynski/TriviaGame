@@ -8,6 +8,7 @@ $(document).ready(function () {
 
     createStart();
     game();
+
     
 
 var questions= [
@@ -153,5 +154,44 @@ function ifOutOfTime() {
     end();
 };
 
+function next() {
+    timeout = setTimeout(function () {
+        questionCount++;
+        counter = 30;
+        timeOut();
+        createTrivia();
+        assignData();
+        pickAns();
+    }, 4000);
+};
+
+function end() {
+
+    if (questionCount === question.length - 1) {
+        setTimeout(function () {
+            var endline = $("<div>All done, here's how you did!</div>")
+            var correctAns = $("<div>Correct Answers: <span>" + correct + "</span></div>")
+            var wrongAns = $("<div>Wrong Answers: <span>" + wrong + "</span></div>")
+            var unAns = $("<div>Unanswered: <span>" + unanswer + "</span></div>")
+            var reset = $("<button class='resetButton btn text-center' type='button'>Restart the Game!</button>");
+            $(".box").html(endline).append(correctAns).append(wrongAns).append(unAns).append(reset);
+            resetpage();
+        }, 4000);
+
+        clearTimeout(timeout);
+    }
+};
 
 
+function resetpage() {
+    $(".resetButton").on("click", function () {
+        questionCount = 0;
+        counter = 30;
+        correct = 0;
+        wrong = 0;
+        unanswer = 0;
+        start();
+
+    })
+};
+});
